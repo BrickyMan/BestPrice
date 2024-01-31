@@ -1,0 +1,15 @@
+@media screen and (max-width: 500px) {
+    .item {
+        font-size: 16px;
+    }
+    .item-input {
+        margin-bottom: 10px;
+    }
+    .item-input input {
+        width: 80px;
+        font-size: 16px;
+    }
+    .item-output p {
+        font-size: 13px;
+    }
+}

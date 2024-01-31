@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #191a22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+main {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 600px;
+    border: 1px solid white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 20px;
+    border: 1px solid white;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.item-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.item-input input {
+    width: 80px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.item-output p {
+    font-size: 15px;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid #ffffff;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+#add-item {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#add-item img {
+    width: 25px;
+    height: 25px;
+}
